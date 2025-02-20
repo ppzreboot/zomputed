@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig({
-    entryPoints: ['./src/mod.ts'],
+    entryPoints: ['./zomputed.ts'],
     format: ['esm'],
     dts: true,
     minify: false,
