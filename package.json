@@ -1,0 +1,29 @@
+{
+  "name": "zomputed",
+  "version": "0.0.0",
+  "author": "PPz",
+  "description": "zustand computed properties",
+
+  "repository": "github:ppzreboot/zomputed",
+  "license": "UNLICENSED",
+  "keywords": [
+    "zustand"
+  ],
+
+  "type": "module",
+  "exports": {},
+  "peerDependencies": {
+    "zustand": ">=5.0.0"
+  },
+
+  "workspaces": [
+    "lib"
+  ],
+
+  "scripts": {},
+
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "tsup": "^8.3.6"
+  }
+}
