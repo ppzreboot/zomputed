@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useName, useStore, update_first_name } from './store'
+import { useName, useStore, update_first_name } from './store.ts'
 
 export default
 function App() {

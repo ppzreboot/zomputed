@@ -5,7 +5,6 @@ export default defineConfig({
     format: ['esm'],
     dts: true,
     minify: false,
-    sourcemap: true,
     clean: true,
     external: ['zustand'],
 })

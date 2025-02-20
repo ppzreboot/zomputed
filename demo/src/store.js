@@ -2,23 +2,18 @@ import { create } from 'zustand'
 import { subscribeWithSelector } from 'zustand/middleware'
 import { zomputed } from 'zomputed'
 
-console.log('using store.ts')
-
-interface I_state {
-  first_name: string
-  last_name: string
-}
+console.log('using store.js')
 
 export
-const useStore = create<I_state>()(
+const useStore = create(
   subscribeWithSelector(() => ({
-    first_name: "John",
-    last_name: "Doe",
-  })
-))
+    first_name: 'John',
+    last_name: 'Doe',
+  }))
+)
 
 export
-function update_first_name(first_name: string) {
+function update_first_name(first_name) {
   useStore.setState({ first_name })
 }
 
