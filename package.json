@@ -11,19 +11,18 @@
   ],
 
   "type": "module",
-  "exports": {},
+  "exports": {
+    ".": "./dist/mod.js"
+  },
   "peerDependencies": {
-    "zustand": ">=5.0.0"
+    "react": ">=18.2"
   },
 
-  "workspaces": [
-    "lib"
-  ],
-
-  "scripts": {},
-
+  "scripts": {
+    "build": "tsup"
+  },
   "devDependencies": {
-    "esbuild": "^0.25.0",
+    "@types/react": "18.2",
     "tsup": "^8.3.6"
   }
 }
