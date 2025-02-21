@@ -2,6 +2,16 @@
 
 zomputed = Zustand computed
 
+zomputed.js ensure the computation occurs only once when:
++ dependencies change
++ multiple dependencies change at the same time
+
+zomputed.js provide:
++ eager computation: compute immediately when dependencies change
++ lazy computation: defer computation until the result is needed
+
+> zomputed.js is default to lazy computation
+
 ``` bash
 npm install zomputed
 ```
