@@ -37,7 +37,7 @@ function eager_zomputed<I_state, I_computed>(
 }
 
 export
-function zomputed<I_state, I_computed>(
+function lazy_zomputed<I_state, I_computed>(
     store: I_store<I_state>,
     deps: (keyof I_state)[],
     compute: (state: I_state) => I_computed,
@@ -70,3 +70,5 @@ function zomputed<I_state, I_computed>(
             ,
         )
 }
+
+export default lazy_zomputed

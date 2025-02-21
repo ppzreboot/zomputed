@@ -1,8 +1,8 @@
 {
   "name": "zomputed",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "PPz",
-  "description": "zustand computed properties",
+  "description": "zustand computed",
 
   "repository": "github:ppzreboot/zomputed",
   "license": "UNLICENSED",
@@ -13,7 +13,7 @@
 
   "type": "module",
   "exports": {
-    ".": "./dist/mod.js"
+    ".": "./dist/zomputed.js"
   },
   "peerDependencies": {
     "react": ">=18.2"
