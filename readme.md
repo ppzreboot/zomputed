@@ -45,10 +45,10 @@ function App() {
   return <div>{fullname}</div>
 }
 
-function compute_fullname(first_name: string, last_name: string) {
+function compute_fullname(state) {
   // heavy computation
   // heavy computation
   // heavy computation
-  return first_name + ' ' + last_name
+  return state.first_name + ' ' + state.last_name
 }
 ```
